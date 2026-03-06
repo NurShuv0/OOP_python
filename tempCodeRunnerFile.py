@@ -1,3 +1,1 @@
-n = int(input())
-# if n == 1: 
-#     obj.
+6000
