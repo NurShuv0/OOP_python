@@ -1,3 +1,1 @@
-
-    def area(self):
-        return .5 * self.vhumi *self.height 
+shopping.class_method_test(10, 20)
