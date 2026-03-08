@@ -1,3 +1,5 @@
+#has a relation purpose
+
 class shopping:
     cart = []
     origin = "no origin"

@@ -8,11 +8,11 @@ class bank:
 
     def deposit(self, amount):
         if amount > 0:
-            balance += amount
+            self.__balance += amount
     
     def withdraw(self, amount):
-        if amount < self.balance:
-            balance -= amount
+        if amount < self.__balance:
+            self.__balance -= amount
             return amount
         else :
             return "not enough money"
@@ -22,5 +22,6 @@ class bank:
     
 nur = bank("nur", 10000)
 # print(nur.__name)
-# print(nur.__balance)
+# print(nur._bank__balance)
 print(nur.get_balance())
+print(nur.withdraw(500))
